@@ -27,12 +27,12 @@ class MXtabBar extends React.Component {
     activeTextColor: PropTypes.string,
     inactiveTextColor: PropTypes.string,
     scrollOffset: PropTypes.number,
-    style: View.propTypes.style,
-    tabStyle: View.propTypes.style,
-    tabsContainerStyle: View.propTypes.style,
+    style: ViewPropTypes.style.style,
+    tabStyle: ViewPropTypes.style.style,
+    tabsContainerStyle: ViewPropTypes.style.style,
     textStyle: Text.propTypes.style,
     renderTab: PropTypes.func,
-    underlineStyle: View.propTypes.style,
+    underlineStyle: ViewPropTypes.style.style,
   };
 
   static defaultProps = {
