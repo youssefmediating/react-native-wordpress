@@ -25,9 +25,9 @@ class IconTabBar extends React.Component {
     activeTextColor: PropTypes.string,
     inactiveTextColor: PropTypes.string,
     textStyle: Text.propTypes.style,
-    tabStyle: ViewPropTypes.style.style,
+    tabStyle: ViewPropTypes.style,
     renderTab: PropTypes.func,
-    underlineStyle: ViewPropTypes.style.style,
+    underlineStyle: ViewPropTypes.style,
   };
 
   static defaultProps = {
