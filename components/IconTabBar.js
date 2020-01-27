@@ -23,7 +23,7 @@ class IconTabBar extends React.Component {
     tabs: PropTypes.array,
     backgroundColor: PropTypes.string,
     activeTextColor: PropTypes.string,
-    inactiveTextColor: PropTypes.string,
+    /*inactiveTextColor: PropTypes.string,*/
     textStyle: Text.propTypes.style,
     tabStyle: View.propTypes.style,
     renderTab: PropTypes.func,
